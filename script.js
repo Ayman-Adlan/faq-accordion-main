@@ -16,9 +16,9 @@ questionButtons.forEach((button) => {
     faqAnswer.classList.toggle("hidden");
 
     if (faqAnswer.classList.contains("hidden")) {
-      icon.src = "/assets/images/icon-plus.svg";
+      icon.src = "./assets/images/icon-plus.svg";
     } else {
-      icon.src = "/assets/images/icon-minus.svg";
+      icon.src = "./assets/images/icon-minus.svg";
     }
   });
 });
@@ -57,7 +57,7 @@ function closeAllOtherAnswers(currentButton) {
 
       if (!otherAnswer.classList.contains("hidden")) {
         otherAnswer.classList.add("hidden");
-        otherIcon.src = "/assets/images/icon-plus.svg";
+        otherIcon.src = "./assets/images/icon-plus.svg";
       }
     }
   });
